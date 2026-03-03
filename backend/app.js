@@ -9,7 +9,7 @@ const announcementrouter=require('./routes/announcementroutes')
 const contactrouter=require('./routes/contactroutes')
 const cors = require('cors')
 const app = express()
-const port = 5500
+const port = 5000
 
 app.use(cors({
   origin: 'http://localhost:5173'
